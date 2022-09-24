@@ -79,33 +79,33 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 93);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(267, 15);
+            this.label2.Size = new System.Drawing.Size(274, 15);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Log into bungie on your browser before you click";
+            this.label2.Text = "Log into bungie on your browser BEFORE you click";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(36, 108);
+            this.label3.Location = new System.Drawing.Point(82, 108);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(225, 15);
+            this.label3.Size = new System.Drawing.Size(132, 15);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Register a new app and copy your api key";
+            this.label3.Text = "Click \"Create New App\"";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(25, 123);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(254, 15);
+            this.label4.Size = new System.Drawing.Size(236, 15);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Paste key into the text box above, then hit load";
+            this.label4.Text = "Name can be whatever, leave website blank";
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(291, 155);
+            this.ClientSize = new System.Drawing.Size(524, 314);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
