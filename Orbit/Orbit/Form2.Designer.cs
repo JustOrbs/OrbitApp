@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxApiKey = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonLoadApiKey = new System.Windows.Forms.Button();
             this.linkLabelRegisterApiKey = new System.Windows.Forms.LinkLabel();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBoxApiKey
             // 
-            this.textBox1.Location = new System.Drawing.Point(89, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(178, 23);
-            this.textBox1.TabIndex = 0;
+            this.textBoxApiKey.Location = new System.Drawing.Point(89, 3);
+            this.textBoxApiKey.Name = "textBoxApiKey";
+            this.textBoxApiKey.Size = new System.Drawing.Size(178, 23);
+            this.textBoxApiKey.TabIndex = 0;
             // 
             // label1
             // 
@@ -54,14 +54,15 @@
             this.label1.Text = "API Key";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // button1
+            // buttonLoadApiKey
             // 
-            this.button1.Location = new System.Drawing.Point(104, 32);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Load";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonLoadApiKey.Location = new System.Drawing.Point(104, 32);
+            this.buttonLoadApiKey.Name = "buttonLoadApiKey";
+            this.buttonLoadApiKey.Size = new System.Drawing.Size(75, 23);
+            this.buttonLoadApiKey.TabIndex = 2;
+            this.buttonLoadApiKey.Text = "Load";
+            this.buttonLoadApiKey.UseVisualStyleBackColor = true;
+            this.buttonLoadApiKey.Click += new System.EventHandler(this.button1_Click);
             // 
             // linkLabelRegisterApiKey
             // 
@@ -105,14 +106,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(524, 314);
+            this.ClientSize = new System.Drawing.Size(293, 314);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.linkLabelRegisterApiKey);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonLoadApiKey);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxApiKey);
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);
@@ -122,9 +123,9 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox textBoxApiKey;
         private Label label1;
-        private Button button1;
+        private Button buttonLoadApiKey;
         private LinkLabel linkLabelRegisterApiKey;
         private Label label2;
         private Label label3;

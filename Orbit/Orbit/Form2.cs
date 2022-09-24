@@ -32,5 +32,11 @@ namespace Orbit
             };
             Process.Start(getKey);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string apikey = textBoxApiKey.Text;
+
+        }
     }
 }
