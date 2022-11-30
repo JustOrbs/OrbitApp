@@ -9,7 +9,7 @@ namespace Orbit
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 form2 = new Form2();
+            InitializeAPI form2 = new InitializeAPI();
             form2.Show();
         }
     }

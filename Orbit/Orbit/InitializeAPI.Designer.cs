@@ -1,6 +1,6 @@
 ﻿namespace Orbit
 {
-    partial class Form2
+    partial class InitializeAPI
     {
         /// <summary>
         /// Required designer variable.

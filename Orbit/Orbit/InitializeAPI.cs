@@ -11,9 +11,9 @@ using System.Diagnostics;
 
 namespace Orbit
 {
-    public partial class Form2 : Form
+    public partial class InitializeAPI : Form
     {
-        public Form2()
+        public InitializeAPI()
         {
             InitializeComponent();
         }
