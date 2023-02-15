@@ -20,11 +20,6 @@ namespace Orbit
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void linkLabelRegisterApiKey_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             ProcessStartInfo getKey = new ProcessStartInfo

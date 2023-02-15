@@ -52,7 +52,6 @@
             this.label1.Size = new System.Drawing.Size(47, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "API Key";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // buttonLoadApiKey
             // 
@@ -102,7 +101,7 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Name can be whatever, leave website blank";
             // 
-            // Form2
+            // InitializeAPI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -114,7 +113,7 @@
             this.Controls.Add(this.buttonLoadApiKey);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxApiKey);
-            this.Name = "Form2";
+            this.Name = "InitializeAPI";
             this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();
