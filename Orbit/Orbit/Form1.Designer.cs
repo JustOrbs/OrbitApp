@@ -114,6 +114,7 @@
             this.Controls.Add(this.buttonCrucibleStatViewerLoad);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
