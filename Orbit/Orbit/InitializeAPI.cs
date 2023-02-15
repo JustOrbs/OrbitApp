@@ -45,6 +45,7 @@ namespace Orbit
             Console.WriteLine(response.Content);
             if (response.IsSuccessStatusCode)
             {
+                Form1.instance.apiKeyLoad(apikey);
                 this.Close();
             }
         }

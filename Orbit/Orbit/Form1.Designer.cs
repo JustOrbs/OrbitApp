@@ -32,7 +32,7 @@
             this.buttonInventoryManagerLoad = new System.Windows.Forms.Button();
             this.buttonDestinyManifestLoad = new System.Windows.Forms.Button();
             this.buttonBungieAuth = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonLoadApiKey = new System.Windows.Forms.Button();
             this.labelOrbitMultitool = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -79,17 +79,18 @@
             this.buttonBungieAuth.TabStop = false;
             this.buttonBungieAuth.Text = "Authorize with Bungie";
             this.buttonBungieAuth.UseVisualStyleBackColor = true;
+            this.buttonBungieAuth.Click += new System.EventHandler(this.buttonBungieAuth_Click);
             // 
-            // button1
+            // buttonLoadApiKey
             // 
-            this.button1.Location = new System.Drawing.Point(310, 333);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(187, 42);
-            this.button1.TabIndex = 0;
-            this.button1.TabStop = false;
-            this.button1.Text = "Load API Key";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonLoadApiKey.Location = new System.Drawing.Point(310, 333);
+            this.buttonLoadApiKey.Name = "buttonLoadApiKey";
+            this.buttonLoadApiKey.Size = new System.Drawing.Size(187, 42);
+            this.buttonLoadApiKey.TabIndex = 0;
+            this.buttonLoadApiKey.TabStop = false;
+            this.buttonLoadApiKey.Text = "Load API Key";
+            this.buttonLoadApiKey.UseVisualStyleBackColor = true;
+            this.buttonLoadApiKey.Click += new System.EventHandler(this.button1_Click);
             // 
             // labelOrbitMultitool
             // 
@@ -108,7 +109,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.labelOrbitMultitool);
             this.Controls.Add(this.buttonDestinyManifestLoad);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonLoadApiKey);
             this.Controls.Add(this.buttonBungieAuth);
             this.Controls.Add(this.buttonInventoryManagerLoad);
             this.Controls.Add(this.buttonCrucibleStatViewerLoad);
@@ -126,7 +127,7 @@
         private Button buttonInventoryManagerLoad;
         private Button buttonDestinyManifestLoad;
         private Button buttonBungieAuth;
-        private Button button1;
+        private Button buttonLoadApiKey;
         private Label labelOrbitMultitool;
     }
 }
