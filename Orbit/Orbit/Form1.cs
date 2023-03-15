@@ -7,8 +7,8 @@ namespace Orbit
 {
     public partial class Form1 : Form
     {
-        string apiKey;
-        public static Form1 instance;
+        string? apiKey;
+        public static Form1? instance;
         public Form1()
         {
             InitializeComponent();
