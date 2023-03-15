@@ -39,7 +39,7 @@ namespace Orbit
         {
             ProcessStartInfo getAuthKey = new ProcessStartInfo
             {
-                FileName = "https://www.bungie.net/en/oauth/authorize?response_type=code&client_id=40755&state=6i0mkLx79Hp91nzWVeHrzHG4",
+                FileName = "https://www.bungie.net/en/oauth/authorize?response_type=code&client_id=(INSERT VARIABLE FOR CLIENT ID LATER)&state=6i0mkLx79Hp91nzWVeHrzHG4",
                 UseShellExecute = true,
             };
             Process.Start(getAuthKey);
