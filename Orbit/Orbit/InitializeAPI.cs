@@ -33,16 +33,20 @@ namespace Orbit
         private void button1_Click(object sender, EventArgs e)
         {
             string apikey = textBoxApiKey.Text;
+            string clientId = textBoxClientId.Text;
+            string currentPath = AppDomain.CurrentDomain.BaseDirectory;
             var client = new RestClient("https://www.bungie.net/Platform/GroupV2/User/254/10991356/0/1/");
             var request = new RestRequest();
             request.AddHeader("x-api-key", apikey);
             var response = client.Execute(request);
-            Console.WriteLine(response.Content);
             if (response.IsSuccessStatusCode)
             {
                 Form1.instance.apiKeyLoad(apikey);
+                KeySerializer.verifyCreateKeyFile(currentPath);
+                KeySerializer.saveKeysToFile(currentPath, apikey, clientId);
                 this.Close();
             }
+            
         }
     }
 }

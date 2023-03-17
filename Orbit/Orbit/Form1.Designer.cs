@@ -83,12 +83,12 @@
             // 
             // buttonLoadApiKey
             // 
-            this.buttonLoadApiKey.Location = new System.Drawing.Point(310, 333);
+            this.buttonLoadApiKey.Location = new System.Drawing.Point(310, 313);
             this.buttonLoadApiKey.Name = "buttonLoadApiKey";
             this.buttonLoadApiKey.Size = new System.Drawing.Size(187, 42);
             this.buttonLoadApiKey.TabIndex = 0;
             this.buttonLoadApiKey.TabStop = false;
-            this.buttonLoadApiKey.Text = "Load API Key";
+            this.buttonLoadApiKey.Text = "Load API Info";
             this.buttonLoadApiKey.UseVisualStyleBackColor = true;
             this.buttonLoadApiKey.Click += new System.EventHandler(this.button1_Click);
             // 
